@@ -1,0 +1,96 @@
+<script>
+	export default {
+		name: "NotFound",
+		components: {},
+	};
+</script>
+
+<template>
+	<div>
+		<div
+			class="
+				flex-wrap
+				content-center
+				h-screen
+				min-h-screen
+				bg-gray-100
+				py-6
+				flex flex-col
+				justify-center
+				sm:py-12
+			"
+		>
+			<div class="justify-items-stretch">
+				<p
+					class="
+						text-6xl
+						font-extrabold
+						tracking-widest
+						text-purple-300
+					"
+				>
+					NotFound.
+				</p>
+				<p>Please check the URL in the address bar and try again.</p>
+				<router-link to="/login">Aller au login</router-link>
+			</div>
+		</div>
+		<div
+			class="
+				absolute
+				w-60
+				h-60
+				rounded-xl
+				bg-purple-300
+				-top-5
+				-left-16
+				z-0
+				transform
+				rotate-45
+				hidden
+				md:block
+			"
+		></div>
+		<div
+			class="
+				absolute
+				w-20
+				h-20
+				rounded-xl
+				bg-purple-300
+				bottom-0
+				-right-0
+				hidden
+				md:block
+			"
+		></div>
+		<div
+			class="
+				w-40
+				h-40
+				absolute
+				bg-purple-300
+				rounded-full
+				top-0
+				right-12
+				hidden
+				md:block
+			"
+		></div>
+		<div
+			class="
+				w-20
+				h-40
+				absolute
+				bg-purple-300
+				rounded-full
+				bottom-10
+				left-10
+				transform
+				rotate-45
+				hidden
+				md:block
+			"
+		></div>
+	</div>
+</template>

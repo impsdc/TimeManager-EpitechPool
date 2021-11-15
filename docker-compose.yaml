@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres
+    container_name: db-timemanager
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    env_file:
+      - .env
+
+  backend:
+    build: .
+    tty: true
+    ports:
+      - "4000:4000"
+    container_name: api-timemanager
+    depends_on:
+      - db
+    env_file: .env
+
+  frontend:
+    container_name: app-timemanager
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    ports:
+      - 5000:3000
+    depends_on:
+      - backend
+    env_file:
+      - .env
+
+volumes:
+  data:

@@ -1,0 +1,8 @@
+/.elixir_ls
+.env
+/data
+epitechAccount.pem
+# Cordova
+/mobile/platforms
+/mobile/plugins
+/public/cordova.js

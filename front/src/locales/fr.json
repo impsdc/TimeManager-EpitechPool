@@ -1,0 +1,43 @@
+{
+    "nav": {
+        "dashboard": "Tableau de bord",
+        "admindashboard": "Tableau de bord admin",
+        "settings": "Paramètres",
+        "logout" : "Déconnexion"
+    },
+    "header": {
+        "hello" : "Bonjour",
+        "message" : "Bienvenue sur votre espace utilisateur."
+    },
+    "filter": {
+        "month" : "Mois",
+        "week" : "Semaine",
+        "define" : "Définir"
+    },
+    "clockmanager": {
+        "begin" : "Commencer à pointer",
+        "stop" : "Arrêter la pointeuse",
+        "message" : "Ci-dessus votre pointeuse, veuillez l'activer dès votre arrivée au bureau et la désactiver quand vous partez en pause dejeuner/café."
+    },
+    "title": {
+        "workingtime" : "Temps de travail",
+        "graphic" : "Graphique",
+        "tab" : "Tableau"
+    },
+    "workingtime": {
+        "title" : "Temps de travail",
+        "start" : "Début",
+        "end" : "Fin",
+        "validate" : "Valider"
+    },
+    "login": {
+        "login" : "Connexion",
+        "hi" : "Hey 👋 Bienvenue sur TimeManager",
+        "access" : "Pour accéder à l'application, merci de vous connecter !",
+        "faq" : "Pour toutes informations supplémentaires, n'hésiter pas à consulter notre FAQ.",
+        "email" : "Email",
+        "pass" : "Mot de passe",
+        "submit" : "Soumettre",
+        "text" : "*Veuillez entrer les identifiants reçu par mail"
+      }
+}

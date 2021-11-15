@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "admindashboard": "Admin Dashboard",
+    "settings": "Settings",
+    "logout" : "Log out"
+  },
+  "header": {
+    "hello" : "Hello",
+    "message" : "Welcome to your user space."
+  },
+  "filter": {
+    "month" : "Month",
+    "week" : "Week",
+    "define" : "Define"
+  },
+  "clockmanager": {
+    "begin" : "Start to point",
+    "stop" : "Stop pointer",
+    "message" : "Above, please turn on your pointer when you arrive at the office and turn it off when you leave for Diner/Rest."
+  },
+  "title": {
+    "workingtime" : "Working time",
+    "graphic" : "Graphic",
+    "tab" : "Tab"
+  },
+  "workingtime": {
+    "title" : "Working time",
+    "start" : "Start",
+    "end" : "End",
+    "validate": "Validate"
+  },
+  "login": {
+    "login" : "Login",
+    "hi" : "Hi 👋 Welcome to TimeManager",
+    "access" : "To access the application, please log in !",
+    "faq" : "For any additional information, don't hesitate to consult our FAQ",
+    "email" : "Email",
+    "pass" : "Password",
+    "submit" : "Submit",
+    "text" : "*Please enter the credentials received by email"
+  }
+}
