@@ -19,9 +19,9 @@ Within the company, there are three categories of users:
 
 ## Required technologies
 
-Back-end: Elixir with Phoenix
-Front-end: Javascript with VueJS
-Mobile: Cordova
+Back-end: Elixir with Phoenix\
+Front-end: Javascript with VueJS\
+Mobile: Cordova\
 
 ## Application URL
 
