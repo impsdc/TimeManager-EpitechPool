@@ -25,4 +25,4 @@ Mobile: Cordova\
 
 ## Application URL
 
-App url : http://timemanager.impsdc.fr
+App url : https://timemanager.impsdc.fr
